@@ -13,7 +13,7 @@ class Board
             puts x.join(' | ') 
             puts '-'*9
           }
-      end
+    end
 
     def get_place
         @place = gets.to_i - 1
